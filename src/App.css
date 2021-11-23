@@ -1,0 +1,30 @@
+#root {
+  min-height: 75%;
+  height: 1000px;
+  max-height: 100%;
+}
+
+#nav-bar {
+  display: flex;
+  min-height: 10%;
+  max-height: 10%;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: aqua;
+}
+
+#aboveTheFold {
+  display: flex;
+  min-height: 10%;
+  height: 40%;
+  max-height: 30%;
+  justify-content: center;
+  background-color: blueviolet;
+}
+
+#cards {
+  display: flex;
+  justify-content: center;
+  background-color: coral;
+}

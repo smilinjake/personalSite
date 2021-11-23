@@ -1,10 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import NavBar from './NavBar.jsx';
+import './App.css';
 
 const App = () => {
   return (
-    <h1>
-      if this is rendering than the project is up and running
-    </h1>
+    <>
+      <NavBar />
+      <h1 id="aboveTheFold">
+        main fold
+      </h1>
+      <h6 id="cards">links to projects</h6>
+    </>
   )
 };
 
