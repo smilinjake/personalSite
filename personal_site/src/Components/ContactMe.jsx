@@ -21,8 +21,23 @@ const ContactMe = () => {
   return (
     <div className="Contact-me">
       <Grid container direction="column" className="contact">
+        <Typography className="Tyopgraphy" variant="h2">
+          Contact Me:
+        </Typography>
         <Typography className="Tyopgraphy" variant="h5">
-          Contact Me
+          Phone: +1 (936) 635-3826
+        </Typography>
+        <Typography className="Tyopgraphy" variant="h5">
+          Email: smilinjake@gmail.com
+        </Typography>
+        <Typography className="Tyopgraphy" variant="h5">
+          Linkedin:{" "}
+          <a href="https://www.linkedin.com/in/jacobward96/">
+            Jacob Ward Linkedin Page
+          </a>
+        </Typography>
+        <Typography className="Tyopgraphy" variant="h5">
+          GitHub: <a href="https://github.com/smilinjake">My Github</a>
         </Typography>
         <div>
           <ColorButton variant="outlined">
@@ -37,7 +52,7 @@ const ContactMe = () => {
           </ColorButton>
         </div>
       </Grid>
-      {/* <Grid container></Grid> */}
+      {/* <Grid continer></Grid> */}
     </div>
   );
 };
