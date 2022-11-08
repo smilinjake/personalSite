@@ -29,9 +29,9 @@ const Home = () => {
           height="250"
           width="250"
         ></img>
-        <Typography className="Tyopgraphy" variant="h5">
+        {/* <Typography className="Tyopgraphy" variant="h5">
           Web Developer
-        </Typography>
+        </Typography> */}
         <Typography className="Tyopgraphy" variant="h1">
           JAKE WARD
         </Typography>

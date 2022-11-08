@@ -40,7 +40,7 @@ const Resume = () => {
             </Link>
           </ColorButton>
           <ColorButton variant="outlined">
-            <Link className="Link" to="/home">
+            <Link className="Link" to="/">
               Home
             </Link>
           </ColorButton>

@@ -20,41 +20,30 @@ const ColorButton = styled(Button)(({ theme }) => ({
 const InfoSection = () => {
   return (
     <div className="Info-section">
-      <Grid container direction="row">
-        <Grid container item direction="column" xs={4}>
-          <img
-            className="MyResume"
-            src="/images/Resume.png"
-            alt="me"
-            height="650"
-            // width="250"
-          ></img>
-        </Grid>
-        <Grid container item direction="column" xs={8}>
-          <Typography className="Tyopgraphy" variant="h5">
-            Web Developer
-          </Typography>
-          <Typography className="Tyopgraphy" variant="h6">
-            Currently looking for remote work
-          </Typography>
-          <div>
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/contact">
-                Contact
-              </Link>
-            </ColorButton>
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/resume">
-                Resume
-              </Link>
-            </ColorButton>
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/">
-                Home
-              </Link>
-            </ColorButton>
-          </div>
-        </Grid>
+      <Grid className="Info" container item direction="column">
+        <Typography className="Tyopgraphy" variant="h5">
+          Web Developer
+        </Typography>
+        <Typography className="Tyopgraphy" variant="h6">
+          Currently looking for remote work
+        </Typography>
+        <div>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/contact">
+              Contact
+            </Link>
+          </ColorButton>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/resume">
+              Resume
+            </Link>
+          </ColorButton>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/">
+              Home
+            </Link>
+          </ColorButton>
+        </div>
       </Grid>
     </div>
   );

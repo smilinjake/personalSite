@@ -1,42 +1,13 @@
-.App {
-  text-align: center;
-  /* background-color: #61dafb; */
-}
-#root {
-  /* background-color: #61dafb; */
-  height: 100vh;
-}
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
+
+/* --------------------------------------- GENERAL ---------------------------------------------- */
 a {
   color: #fafafa;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-/* .Body {
-  height: 100%
-} */
 
 .Button {
   margin-right: 20px;
@@ -50,6 +21,15 @@ a {
   color: #fafafa;
 }
 
+.Link {
+  color: whitesmoke;
+}
+
+.Link:hover {
+  color: black;
+}
+
+/* --------------------------------------- HOME PAGE -------------------------------------------- */
 .HomePage {
   /* background-color: aquamarine; */
   height: 100vh;
@@ -62,32 +42,25 @@ a {
   align-items: center;
 }
 
-.Link {
-  color: whitesmoke;
-  /* padding: 10%; */
-}
-
-.Link:hover {
-  color: black;
-}
-
 .MyImage {
   border-radius: 50%;
 }
 
-.MyResume {
-  padding-bottom: 10px;
-}
-
+/* ---------------------------------------- INFO PAGE ------------------------------------------- */
 .Info-section {
   /* background-color: aqua; */
+  height: 100vh;
   display: flex;
-  flex-direction: row;
-  align-self: flex-start;
-  /* padding-left: 4rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem; */
+  align-items: center;
 }
+
+.Info {
+  display: flex;
+  align-items: center;
+}
+
+/* ---------------------------------------- CONTACT PAGE ---------------------------------------- */
+
 .Contact-me {
   /* background-color:dodgerblue; */
   height: 100vh;
@@ -99,6 +72,12 @@ a {
 .contact {
   display: flex;
   align-items: center;
+}
+
+/* ----------------------------------------- RESUME PAGE ---------------------------------------- */
+
+.MyResume {
+  padding-bottom: 10px;
 }
 
 @keyframes App-logo-spin {
