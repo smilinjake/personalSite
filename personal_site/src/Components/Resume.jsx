@@ -18,23 +18,17 @@ const ColorButton = styled(Button)(({ theme }) => ({
   marginRight: "5px",
   marginLeft: "5px",
 }));
-const Home = () => {
+const Resume = () => {
   return (
     <div className="HomePage">
       <Grid className="Home" container item direction="column">
         <img
-          className="MyImage"
-          src="/images/websiteImage.jpeg"
+          className="MyResume"
+          src="/images/Resume.png"
           alt="me"
-          height="250"
-          width="250"
+          height="700"
+          // width="250"
         ></img>
-        <Typography className="Tyopgraphy" variant="h5">
-          Web Developer
-        </Typography>
-        <Typography className="Tyopgraphy" variant="h1">
-          JAKE WARD
-        </Typography>
         <nav className="links">
           <ColorButton variant="outlined">
             <Link className="Link" to="/contact">
@@ -47,8 +41,8 @@ const Home = () => {
             </Link>
           </ColorButton>
           <ColorButton variant="outlined">
-            <Link className="Link" to="/resume">
-              Resume
+            <Link className="Link" to="/home">
+              Home
             </Link>
           </ColorButton>
         </nav>
@@ -57,4 +51,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Resume;

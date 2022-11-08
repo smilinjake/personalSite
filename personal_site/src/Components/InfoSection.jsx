@@ -44,6 +44,11 @@ const InfoSection = () => {
               </Link>
             </ColorButton>
             <ColorButton variant="outlined">
+              <Link className="Link" to="/resume">
+                Resume
+              </Link>
+            </ColorButton>
+            <ColorButton variant="outlined">
               <Link className="Link" to="/">
                 Home
               </Link>

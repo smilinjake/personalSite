@@ -32,9 +32,7 @@ const ContactMe = () => {
         </Typography>
         <Typography className="Tyopgraphy" variant="h5">
           Linkedin:{" "}
-          <a href="https://www.linkedin.com/in/jacobward96/">
-            Jacob Ward Linkedin Page
-          </a>
+          <a href="https://www.linkedin.com/in/jacobward96/">My Linkedin</a>
         </Typography>
         <Typography className="Tyopgraphy" variant="h5">
           GitHub: <a href="https://github.com/smilinjake">My Github</a>
@@ -43,6 +41,11 @@ const ContactMe = () => {
           <ColorButton variant="outlined">
             <Link className="Link" to="/info">
               Info
+            </Link>
+          </ColorButton>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/resume">
+              Resume
             </Link>
           </ColorButton>
           <ColorButton variant="outlined">
