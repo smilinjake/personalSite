@@ -2,9 +2,9 @@
   text-align: center;
   /* background-color: #61dafb; */
 }
-#root{
+#root {
   /* background-color: #61dafb; */
-  height: 100vh
+  height: 100vh;
 }
 .App-logo {
   height: 40vmin;
@@ -44,7 +44,7 @@
 }
 
 .Tyopgraphy {
-  color: #fafafa
+  color: #fafafa;
 }
 
 .Header {
@@ -61,6 +61,7 @@
 
 .Link {
   color: whitesmoke;
+  /* padding: 10%; */
 }
 
 .Link:hover {
@@ -72,7 +73,7 @@
 }
 
 .MyResume {
-  height: 40%
+  height: 35%;
 }
 
 .Info-section {
@@ -83,17 +84,18 @@
   /* padding-left: 4rem;
   padding-top: 3rem;
   padding-bottom: 3rem; */
-
 }
 .Contact-me {
   /* background-color:dodgerblue; */
+  height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-self: flex-start;
-  /* padding-left: 4rem;
-  padding-top: 3rem;
-  padding-bottom: 3rem; */
+  /* flex-direction: column; */
+  align-items: center;
+}
 
+.contact {
+  display: flex;
+  align-items: center;
 }
 
 @keyframes App-logo-spin {

@@ -30,10 +30,9 @@ const Home = () => {
       <Typography className="Tyopgraphy" variant="h5">
         Web Developer
       </Typography>
-      <Typography className="Tyopgraphy" variant="h4">
+      <Typography className="Tyopgraphy" variant="h1">
         JAKE WARD
       </Typography>
-      {/* <Button>cool</Button> */}
       <nav className="links">
         <ColorButton variant="outlined">
           <Link className="Link" to="/contact">

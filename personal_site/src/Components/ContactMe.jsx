@@ -4,6 +4,7 @@ import "../App.css";
 import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
+import Grid from "@mui/material/Grid";
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#fafafa",
@@ -19,21 +20,24 @@ const ColorButton = styled(Button)(({ theme }) => ({
 const ContactMe = () => {
   return (
     <div className="Contact-me">
-      <Typography className="Tyopgraphy" variant="h5">
-        Contact Me
-      </Typography>
-      <div>
-        <ColorButton variant="outlined">
-          <Link className="Link" to="/info">
-            Info
-          </Link>
-        </ColorButton>
-        <ColorButton variant="outlined">
-          <Link className="Link" to="/">
-            Home
-          </Link>
-        </ColorButton>
-      </div>
+      <Grid container direction="column" className="contact">
+        <Typography className="Tyopgraphy" variant="h5">
+          Contact Me
+        </Typography>
+        <div>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/info">
+              Info
+            </Link>
+          </ColorButton>
+          <ColorButton variant="outlined">
+            <Link className="Link" to="/">
+              Home
+            </Link>
+          </ColorButton>
+        </div>
+      </Grid>
+      {/* <Grid container></Grid> */}
     </div>
   );
 };
