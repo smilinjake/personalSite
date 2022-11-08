@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  /* background-color: #61dafb; */
 }
-
+#root{
+  /* background-color: #61dafb; */
+  height: 100vh
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -26,6 +30,70 @@
 
 .App-link {
   color: #61dafb;
+}
+/* .Body {
+  height: 100%
+} */
+
+.Button {
+  margin-right: 20px;
+}
+
+.MuiButton-root {
+  border-radius: 8px;
+}
+
+.Tyopgraphy {
+  color: #fafafa
+}
+
+.Header {
+  /* background-color: aquamarine; */
+  display: flex;
+  flex-direction: column;
+  /* align-self:center; */
+  align-items: center;
+  height: flex;
+  /* padding-top: 4rem;
+  padding-left: 4rem; */
+  /* padding-bottom: 9rem; */
+}
+
+.Link {
+  color: whitesmoke;
+}
+
+.Link:hover {
+  color: black;
+}
+
+.MyImage {
+  border-radius: 50%;
+}
+
+.MyResume {
+  height: 40%
+}
+
+.Info-section {
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  /* padding-left: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; */
+
+}
+.Contact-me {
+  /* background-color:dodgerblue; */
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  /* padding-left: 4rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem; */
+
 }
 
 @keyframes App-logo-spin {
