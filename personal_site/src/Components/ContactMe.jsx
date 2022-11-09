@@ -30,40 +30,35 @@ const ContactMe = () => {
           Contact Me:
         </Typography> */}
         <Grid className="ContactIcons" container item direction="row">
-          <span className="IconBubble">
-            <PhoneIcon />
+          <span className="Centered">
+            <span className="IconBubble">
+              <PhoneIcon fontSize="large" />
+            </span>
+            <h4>PHONE</h4>
+            <h3>+1 (936) 635-3826</h3>
           </span>
-          <span className="IconBubble">
-            <EmailIcon />
+          <span className="Centered">
+            <span className="IconBubble">
+              <EmailIcon fontSize="large" />
+            </span>
+            <h4>EMAIL</h4>
+            <h3>Smilinjake@gmail.com</h3>
           </span>
-          <span className="IconBubble">
-            <LinkedInIcon />
+          <span className="Centered">
+            <span className="IconBubble">
+              <LinkedInIcon fontSize="large" />
+            </span>
+            <h4>LINKEDIN</h4>
+            <a href="https://www.linkedin.com/in/jacobward96/">My Linkedin</a>
           </span>
-          <span className="IconBubble">
-            <GitHubIcon />
+          <span className="Centered">
+            <span className="IconBubble">
+              <GitHubIcon fontSize="large" />
+            </span>
+            <h4>GITHUB</h4>
+            <a href="https://github.com/smilinjake">My Github</a>
           </span>
         </Grid>
-        <ol>
-          todo:
-          <li>
-            create a theme or switch to h elements that can be styled via css
-          </li>
-          <li>finish the icons</li>
-          <li></li>
-        </ol>
-        <Typography className="Tyopgraphy" variant="h5">
-          Phone: +1 (936) 635-3826
-        </Typography>
-        <Typography className="Tyopgraphy" variant="h5">
-          Email: smilinjake@gmail.com
-        </Typography>
-        <Typography className="Tyopgraphy" variant="h5">
-          Linkedin:{" "}
-          <a href="https://www.linkedin.com/in/jacobward96/">My Linkedin</a>
-        </Typography>
-        <Typography className="Tyopgraphy" variant="h5">
-          GitHub: <a href="https://github.com/smilinjake">My Github</a>
-        </Typography>
         <div>
           <ColorButton variant="outlined">
             <Link className="Link" to="/resume">
@@ -82,7 +77,6 @@ const ContactMe = () => {
           </ColorButton>
         </div>
       </Grid>
-      {/* <Grid continer></Grid> */}
     </div>
   );
 };
