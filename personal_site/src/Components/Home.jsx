@@ -21,38 +21,42 @@ const ColorButton = styled(Button)(({ theme }) => ({
 const Home = () => {
   return (
     <div className="HomePage">
+      {/* <Grid className="HomeBorder" container item direction="row"> */}
       <Grid className="Home" container item direction="column">
-        <img
-          className="MyImage"
-          src="/images/websiteImage.jpeg"
-          alt="me"
-          height="250"
-          width="250"
-        ></img>
-        {/* <Typography className="Tyopgraphy" variant="h5">
+        <span className="HomeBorder">
+          <img
+            className="MyImage"
+            src="/images/websiteImage.jpeg"
+            alt="me"
+            height="150"
+            width="150"
+          ></img>
+          {/* <Typography className="Tyopgraphy" variant="h5">
           Web Developer
         </Typography> */}
-        <Typography className="Tyopgraphy" variant="h1">
-          JAKE WARD
-        </Typography>
-        <nav className="links">
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/contact">
-              Contact
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/info">
-              Info
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/resume">
-              Resume
-            </Link>
-          </ColorButton>
-        </nav>
+          <h1 className="Tyopgraphy" variant="h1">
+            JAKE WARD
+          </h1>
+          <nav className="links">
+            <ColorButton variant="outlined">
+              <Link className="Link" to="/contact">
+                Contact
+              </Link>
+            </ColorButton>
+            <ColorButton variant="outlined">
+              <Link className="Link" to="/info">
+                Info
+              </Link>
+            </ColorButton>
+            <ColorButton variant="outlined">
+              <Link className="Link" to="/resume">
+                Resume
+              </Link>
+            </ColorButton>
+          </nav>
+        </span>
       </Grid>
+      {/* </Grid> */}
     </div>
   );
 };

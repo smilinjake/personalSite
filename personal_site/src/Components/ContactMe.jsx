@@ -39,13 +39,13 @@ const ContactMe = () => {
         </Typography>
         <div>
           <ColorButton variant="outlined">
-            <Link className="Link" to="/info">
-              Info
+            <Link className="Link" to="/resume">
+              Resume
             </Link>
           </ColorButton>
           <ColorButton variant="outlined">
-            <Link className="Link" to="/resume">
-              Resume
+            <Link className="Link" to="/info">
+              Info
             </Link>
           </ColorButton>
           <ColorButton variant="outlined">
