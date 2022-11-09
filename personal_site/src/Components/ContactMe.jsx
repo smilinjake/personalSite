@@ -6,6 +6,9 @@ import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#fafafa",
@@ -30,7 +33,24 @@ const ContactMe = () => {
           <span className="IconBubble">
             <PhoneIcon />
           </span>
+          <span className="IconBubble">
+            <EmailIcon />
+          </span>
+          <span className="IconBubble">
+            <LinkedInIcon />
+          </span>
+          <span className="IconBubble">
+            <GitHubIcon />
+          </span>
         </Grid>
+        <ol>
+          todo:
+          <li>
+            create a theme or switch to h elements that can be styled via css
+          </li>
+          <li>finish the icons</li>
+          <li></li>
+        </ol>
         <Typography className="Tyopgraphy" variant="h5">
           Phone: +1 (936) 635-3826
         </Typography>
