@@ -100,6 +100,23 @@ h1 {
   align-items: center;
 }
 
+.ContactIcons {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+
+.IconBubble {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
 /* ----------------------------------------- RESUME PAGE ---------------------------------------- */
 
 .MyResume {

@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import Button from "@mui/material/Button";
 import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
+import PhoneIcon from "@mui/icons-material/Phone";
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#fafafa",
@@ -21,9 +22,15 @@ const ContactMe = () => {
   return (
     <div className="Contact-me">
       <Grid container direction="column" className="contact">
-        <Typography className="Tyopgraphy" variant="h2">
+        <h2 className="Tyopgraphy">Contact Me:</h2>
+        {/* <Typography className="Tyopgraphy" variant="h2">
           Contact Me:
-        </Typography>
+        </Typography> */}
+        <Grid className="ContactIcons" container item direction="row">
+          <span className="IconBubble">
+            <PhoneIcon />
+          </span>
+        </Grid>
         <Typography className="Tyopgraphy" variant="h5">
           Phone: +1 (936) 635-3826
         </Typography>
