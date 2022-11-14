@@ -27,6 +27,41 @@ const InfoSection = () => {
         <Typography className="Tyopgraphy" variant="h6">
           Currently looking for remote work
         </Typography>
+        <img
+          className="MyImage"
+          src="/images/cssLogo.png"
+          alt="me"
+          height="75"
+          width="75"
+        ></img>
+        <img
+          className="MyImage"
+          src="/images/html5Logo.png"
+          alt="me"
+          height="75"
+          width="75"
+        ></img>
+        <img
+          className="MyImage"
+          src="/images/jsLogo.jpg"
+          alt="me"
+          height="75"
+          width="75"
+        ></img>
+        <img
+          className="MyImage"
+          src="/images/postgresLogo.png"
+          alt="me"
+          height="75"
+          width="75"
+        ></img>
+        <img
+          className="MyImage"
+          src="/images/postmanLogo.png"
+          alt="me"
+          height="75"
+          width="75"
+        ></img>
         <div>
           <ColorButton variant="outlined">
             <Link className="Link" to="/contact">
