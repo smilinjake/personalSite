@@ -24,13 +24,14 @@ const Home = () => {
       {/* <Grid className="HomeBorder" container item direction="row"> */}
       <Grid className="Home" container item direction="column">
         <span className="HomeBorder">
-          <img
+          {/* <img
             className="MyImage"
             src="/images/websiteImage.jpeg"
             alt="me"
             height="150"
             width="150"
-          ></img>
+          ></img> */}
+          <div className="MyImage"></div>
           {/* <Typography className="Tyopgraphy" variant="h5">
           Web Developer
         </Typography> */}

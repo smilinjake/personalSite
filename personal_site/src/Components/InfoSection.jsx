@@ -21,13 +21,9 @@ const InfoSection = () => {
   return (
     <div className="Info-section">
       <Grid className="Info" container item direction="column">
-        <Typography className="Tyopgraphy" variant="h5">
-          Web Developer
-        </Typography>
-        <Typography className="Tyopgraphy" variant="h6">
-          Currently looking for remote work
-        </Typography>
-        <img
+        <h3 className="Tyopgraphy">Web Developer</h3>
+        <h4 className="Tyopgraphy">Currently looking for remote work</h4>
+        {/* <img
           className="MyImage"
           src="/images/cssLogo.png"
           alt="me"
@@ -61,7 +57,7 @@ const InfoSection = () => {
           alt="me"
           height="75"
           width="75"
-        ></img>
+        ></img> */}
         <div>
           <ColorButton variant="outlined">
             <Link className="Link" to="/contact">
