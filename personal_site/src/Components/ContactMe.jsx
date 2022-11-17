@@ -13,10 +13,12 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#fafafa",
   "&:hover": {
-    backgroundColor: "#fafafa",
+    backgroundColor: "whitesmoke",
+    color: "Black",
+    borderColor: "whitesmoke",
   },
   borderRadius: "25px",
-  borderColor: "#fafafa",
+  borderColor: "whitesmoke",
   marginRight: "5px",
   marginLeft: "5px",
 }));
@@ -26,6 +28,7 @@ const ContactMe = () => {
     <div className="Contact-me">
       <Grid container direction="column" className="contact">
         <h2 className="Tyopgraphy">Contact Me:</h2>
+        {/* <h2 className="Tyopgraphy">* make the icons buttons</h2> */}
         {/* <Typography className="Tyopgraphy" variant="h2">
           Contact Me:
         </Typography> */}
@@ -38,43 +41,43 @@ const ContactMe = () => {
             <h3>+1 (936) 635-3826</h3>
           </span>
           <span className="Centered">
-            <span className="IconBubble">
-              <EmailIcon fontSize="large" />
-            </span>
+            <a href="mailto:smilinjake@gmail.com">
+              <span className="IconBubble">
+                <EmailIcon fontSize="large" className="ButtonLink" />
+              </span>
+            </a>
             <h4>EMAIL</h4>
-            <h3>Smilinjake@gmail.com</h3>
+            <a href="mailto:smilinjake@gmail.com">Smilinjake@gmail.com</a>
           </span>
           <span className="Centered">
-            <span className="IconBubble">
-              <LinkedInIcon fontSize="large" />
-            </span>
+            <a href="https://www.linkedin.com/in/jacobward96/">
+              <span className="IconBubble">
+                <LinkedInIcon fontSize="large" className="ButtonLink" />
+              </span>
+            </a>
             <h4>LINKEDIN</h4>
             <a href="https://www.linkedin.com/in/jacobward96/">My Linkedin</a>
           </span>
           <span className="Centered">
-            <span className="IconBubble">
-              <GitHubIcon fontSize="large" />
-            </span>
+            <a href="https://github.com/smilinjake">
+              <span className="IconBubble">
+                <GitHubIcon fontSize="large" className="ButtonLink" />
+              </span>
+            </a>
             <h4>GITHUB</h4>
             <a href="https://github.com/smilinjake">My Github</a>
           </span>
         </Grid>
         <div>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/resume">
-              Resume
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/info">
-              Info
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/">
-              Home
-            </Link>
-          </ColorButton>
+          <a className="Link" href="/resume">
+            <ColorButton variant="outlined">Resume</ColorButton>
+          </a>
+          <a className="Link" href="/info">
+            <ColorButton variant="outlined">Info</ColorButton>
+          </a>
+          <a className="Link" href="/">
+            <ColorButton variant="outlined">Home</ColorButton>
+          </a>
         </div>
       </Grid>
     </div>
