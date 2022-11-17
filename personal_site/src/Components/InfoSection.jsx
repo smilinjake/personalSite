@@ -1,21 +1,7 @@
 import React from "react";
-import Typography from "@mui/material/Typography";
 import "../App.css";
-import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
+import ColorButton from "./ColorButton.jsx";
 import Grid from "@mui/material/Grid";
-
-const ColorButton = styled(Button)(({ theme }) => ({
-  color: "#fafafa",
-  "&:hover": {
-    backgroundColor: "#fafafa",
-  },
-  borderRadius: "25px",
-  borderColor: "#fafafa",
-  marginRight: "5px",
-  marginLeft: "5px",
-}));
 
 const InfoSection = () => {
   return (
@@ -23,57 +9,16 @@ const InfoSection = () => {
       <Grid className="Info" container item direction="column">
         <h3 className="Tyopgraphy">Web Developer</h3>
         <h4 className="Tyopgraphy">Currently looking for remote work</h4>
-        {/* <img
-          className="MyImage"
-          src="/images/cssLogo.png"
-          alt="me"
-          height="75"
-          width="75"
-        ></img>
-        <img
-          className="MyImage"
-          src="/images/html5Logo.png"
-          alt="me"
-          height="75"
-          width="75"
-        ></img>
-        <img
-          className="MyImage"
-          src="/images/jsLogo.jpg"
-          alt="me"
-          height="75"
-          width="75"
-        ></img>
-        <img
-          className="MyImage"
-          src="/images/postgresLogo.png"
-          alt="me"
-          height="75"
-          width="75"
-        ></img>
-        <img
-          className="MyImage"
-          src="/images/postmanLogo.png"
-          alt="me"
-          height="75"
-          width="75"
-        ></img> */}
         <div>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/contact">
-              Contact
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/resume">
-              Resume
-            </Link>
-          </ColorButton>
-          <ColorButton variant="outlined">
-            <Link className="Link" to="/">
-              Home
-            </Link>
-          </ColorButton>
+          <a className="Link" href="/contact">
+            <ColorButton variant="outlined">Contact</ColorButton>
+          </a>
+          <a className="Link" href="/resume">
+            <ColorButton variant="outlined">Resume</ColorButton>
+          </a>
+          <a className="Link" href="/">
+            <ColorButton variant="outlined">Home</ColorButton>
+          </a>
         </div>
       </Grid>
     </div>

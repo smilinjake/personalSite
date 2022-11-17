@@ -1,11 +1,11 @@
 import React from "react";
 import "../App.css";
+import ColorButton from "./ColorButton.jsx";
 import Grid from "@mui/material/Grid";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import ColorButton from "./ColorButton.jsx";
 
 const ContactMe = () => {
   return (
