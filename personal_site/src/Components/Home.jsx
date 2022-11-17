@@ -24,36 +24,20 @@ const Home = () => {
       {/* <Grid className="HomeBorder" container item direction="row"> */}
       <Grid className="Home" container item direction="column">
         <span className="HomeBorder">
-          {/* <img
-            className="MyImage"
-            src="/images/websiteImage.jpeg"
-            alt="me"
-            height="150"
-            width="150"
-          ></img> */}
           <div className="MyImage"></div>
-          {/* <Typography className="Tyopgraphy" variant="h5">
-          Web Developer
-        </Typography> */}
           <h1 className="Tyopgraphy" variant="h1">
             JAKE WARD
           </h1>
           <nav className="links">
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/contact">
-                Contact
-              </Link>
-            </ColorButton>
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/info">
-                Info
-              </Link>
-            </ColorButton>
-            <ColorButton variant="outlined">
-              <Link className="Link" to="/resume">
-                Resume
-              </Link>
-            </ColorButton>
+            <a href="/contact">
+              <ColorButton variant="outlined">Contact</ColorButton>
+            </a>
+            <a href="/info">
+              <ColorButton variant="outlined">Info</ColorButton>
+            </a>
+            <a href="/resume">
+              <ColorButton variant="outlined">Resume</ColorButton>
+            </a>
           </nav>
         </span>
       </Grid>

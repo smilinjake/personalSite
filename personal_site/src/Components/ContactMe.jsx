@@ -1,37 +1,17 @@
 import React from "react";
-// import Typography from "@mui/material/Typography";
 import "../App.css";
-import { Link } from "react-router-dom";
-import Button from "@mui/material/Button";
-import { styled } from "@mui/material/styles";
 import Grid from "@mui/material/Grid";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-
-const ColorButton = styled(Button)(({ theme }) => ({
-  color: "#fafafa",
-  "&:hover": {
-    backgroundColor: "whitesmoke",
-    color: "Black",
-    borderColor: "whitesmoke",
-  },
-  borderRadius: "25px",
-  borderColor: "whitesmoke",
-  marginRight: "5px",
-  marginLeft: "5px",
-}));
+import ColorButton from "./ColorButton.jsx";
 
 const ContactMe = () => {
   return (
     <div className="Contact-me">
       <Grid container direction="column" className="contact">
         <h2 className="Tyopgraphy">Contact Me:</h2>
-        {/* <h2 className="Tyopgraphy">* make the icons buttons</h2> */}
-        {/* <Typography className="Tyopgraphy" variant="h2">
-          Contact Me:
-        </Typography> */}
         <Grid className="ContactIcons" container item direction="row">
           <span className="Centered">
             <span className="IconBubble">
