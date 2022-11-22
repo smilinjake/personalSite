@@ -1,13 +1,12 @@
-import React from "react";
 import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
 const ColorButton = styled(Button)(({ theme }) => ({
   color: "#fafafa",
   "&:hover": {
-    backgroundColor: "whitesmoke",
+    backgroundImage: "radial-gradient(ellipse, whitesmoke 20%, #303030 120%)",
     color: "Black",
-    borderColor: "whitesmoke",
+    borderColor: "transparent",
   },
   borderRadius: "25px",
   borderColor: "whitesmoke",

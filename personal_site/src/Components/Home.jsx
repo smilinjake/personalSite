@@ -9,9 +9,8 @@ const Home = () => {
       <Grid className="Home" container item direction="column">
         <span className="HomeBorder">
           <div className="MyImage"></div>
-          <h1 className="Tyopgraphy" variant="h1">
-            JAKE WARD
-          </h1>
+          <h1 className="Typography">JAKE WARD</h1>
+          <h3 className="Typography">Full Stack Web Developer</h3>
           <nav className="links">
             <a className="Link" href="/contact">
               <ColorButton variant="outlined">Contact</ColorButton>

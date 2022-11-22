@@ -11,7 +11,7 @@ const ContactMe = () => {
   return (
     <div className="Contact-me">
       <Grid container direction="column" className="contact">
-        <h2 className="Tyopgraphy">Contact Me:</h2>
+        <h2 className="Typography">Contact Me:</h2>
         <Grid className="ContactIcons" container item direction="row">
           <span className="Centered">
             <span className="IconBubble">
@@ -21,16 +21,21 @@ const ContactMe = () => {
             <h3>+1 (936) 635-3826</h3>
           </span>
           <span className="Centered">
-            <a href="mailto:smilinjake@gmail.com">
+            <a className="ContactBubbleLink" href="mailto:smilinjake@gmail.com">
               <span className="IconBubble">
                 <EmailIcon fontSize="large" className="ButtonLink" />
               </span>
             </a>
             <h4>EMAIL</h4>
-            <a href="mailto:smilinjake@gmail.com">Smilinjake@gmail.com</a>
+            <a className="ContactBubbleLink" href="mailto:smilinjake@gmail.com">
+              Smilinjake@gmail.com
+            </a>
           </span>
           <span className="Centered">
-            <a href="https://www.linkedin.com/in/jacobward96/">
+            <a
+              className="ContactBubbleLink"
+              href="https://www.linkedin.com/in/jacobward96/"
+            >
               <span className="IconBubble">
                 <LinkedInIcon fontSize="large" className="ButtonLink" />
               </span>
