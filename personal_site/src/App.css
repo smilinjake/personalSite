@@ -25,16 +25,44 @@ a {
   align-items: center;
 }
 
+.HomeIcon {
+  color: aqua;
+  padding-left: 11.5%;
+  padding-top: 9%;
+}
+
+.HomeButton {
+  /* background-color: #fafafa; */
+  height: 45px;
+  width: 45px;
+  border: transparent 2px solid;
+  border-radius: 50%;
+}
+
+.HomeButton:hover {
+  /* border: 2px; */
+  border: aqua 2px solid;
+  cursor: pointer;
+}
+
+.HomeIconPosition {
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
 h1 {
-  font-size: 90px;
+  color: #fafafa;
+  font-size: 60px;
   margin-top: 10px;
   margin-bottom: 10px;
+  padding-right: 10px;
 }
 
 h2 {
   font-size: 60px;
   margin-top: 10px;
   margin-bottom: 40px;
+  color: aqua;
 }
 
 h3 {
@@ -50,6 +78,13 @@ h4 {
   /* margin-top: 10px; */
   /* margin-bottom: 20px; */
   color: aqua;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10%;
 }
 
 .Link {
@@ -75,28 +110,42 @@ p {
   line-height: 1.5;
 }
 strong {
-  color: gold;
+  /* color: gold; */
+  font-weight: bold;
 }
 
 .Typography {
-  color: whitesmoke;
+  /* color: whitesmoke; */
   /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif; */
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+}
+
+.TypographyH1 {
+  color: black;
+  padding-left: 10px;
+  padding-right: 10px;
+  /* font-weight: 300; */
+  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /* --------------------------------------- HOME PAGE -------------------------------------------- */
-.HomePage {
-  /* background-color: aquamarine; */
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  /* background-image: url(../public/images/galaxy1.jpeg); */
+.BlueBox {
+  background-color: aqua;
 }
 
-.Home {
+.HomePage {
+  /* background-color: aquamarine; */
   display: flex;
-  align-items: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* background-image: url(../public/images/galaxy1.jpeg); */
+  justify-content: space-around;
 }
 
 .HomeBorder {
@@ -110,6 +159,16 @@ strong {
   /* border-width: 2px;
   border-color: #fafafa; */
   /* width: 50% !important; */
+}
+
+.Intro {
+  padding-left: 9%;
+  /* background-color: aquamarine; */
+}
+
+.IntroLine {
+  display: flex;
+  flex-direction: row;
 }
 
 .MyImage {

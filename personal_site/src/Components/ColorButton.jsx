@@ -2,14 +2,18 @@ import { styled } from "@mui/material/styles";
 import Button from "@mui/material/Button";
 
 const ColorButton = styled(Button)(({ theme }) => ({
-  color: "#fafafa",
+  color: "aqua",
   "&:hover": {
-    backgroundImage: "radial-gradient(ellipse, whitesmoke 20%, #303030 120%)",
-    color: "Black",
-    borderColor: "transparent",
+    backgroundColor: "aqua",
+    color: "black",
+    borderColor: "aqua",
   },
-  borderRadius: "25px",
-  borderColor: "whitesmoke",
+  fontSize: "20px",
+  height: "75px",
+  width: "200px",
+  borderRadius: "40px",
+  borderColor: "aqua",
+  borderWidth: "2px",
   marginRight: "5px",
   marginLeft: "5px",
 }));
