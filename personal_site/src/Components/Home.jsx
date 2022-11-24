@@ -1,7 +1,6 @@
 import React from "react";
 import "../App.css";
 import ColorButton from "./ColorButton.jsx";
-import Grid from "@mui/material/Grid";
 import HomeIcon from "@mui/icons-material/Home";
 
 const Home = () => {
@@ -13,9 +12,6 @@ const Home = () => {
         </div>
       </div>
       <div className="HomePage">
-        {/* <Grid className="Home" container item direction="column"> */}
-        {/* <span className="HomeBorder"> */}
-        {/* <div className="MyImage"></div> */}
         <div className="Intro">
           <div className="IntroLine">
             <h1 className="Typography">HI! I'M</h1>
@@ -27,7 +23,7 @@ const Home = () => {
           </div>
           <h2 className="Typography">A FULL STACK WEB DEVELOPER</h2>
         </div>
-        <nav className="links">
+        <nav className="links-home">
           <a className="Link" href="/contact">
             <ColorButton variant="outlined">Contact</ColorButton>
           </a>
@@ -38,9 +34,6 @@ const Home = () => {
             <ColorButton variant="outlined">Resume</ColorButton>
           </a>
         </nav>
-        {/* </span> */}
-        {/* </Grid> */}
-        {/* </Grid> */}
       </div>
     </>
   );
