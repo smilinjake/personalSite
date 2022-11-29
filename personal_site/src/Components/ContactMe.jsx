@@ -1,24 +1,14 @@
 import React from "react";
 import "../App.css";
-import ColorButton from "./ColorButton.jsx";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
-import HomeIcon from "@mui/icons-material/Home";
 
 const ContactMe = () => {
   return (
     <>
-      <div className="HomeIconPosition">
-        <a href="/">
-          <div className="HomeButton">
-            <HomeIcon fontSize="large" className="HomeIcon" />
-          </div>
-        </a>
-      </div>
       <div className="Contact-Body">
-        {/* <Grid container direction="column" className="contact"> */}
         <div className="Contact-Row">
           <div className="Left-Side">
             <span className="Contact-Block">
@@ -94,18 +84,6 @@ const ContactMe = () => {
             </div>
           </div>
         </div>
-        <div className="links">
-          <a className="Link" href="/resume">
-            <ColorButton variant="outlined">Resume</ColorButton>
-          </a>
-          <a className="Link" href="/info">
-            <ColorButton variant="outlined">Info</ColorButton>
-          </a>
-          <a className="Link" href="/">
-            <ColorButton variant="outlined">Home</ColorButton>
-          </a>
-        </div>
-        {/* </Grid> */}
       </div>
     </>
   );

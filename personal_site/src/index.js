@@ -3,22 +3,23 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import ContactMe from "./Components/ContactMe.jsx";
-import InfoSection from "./Components/InfoSection.jsx";
-import Resume from "./Components/Resume.jsx";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import ContactMe from "./Components/ContactMe.jsx";
+// import InfoSection from "./Components/InfoSection.jsx";
+// import Resume from "./Components/Resume.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="contact" element={<ContactMe />} />
         <Route path="info" element={<InfoSection />} />
         <Route path="resume" element={<Resume />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+    <App />
   </React.StrictMode>
 );
 

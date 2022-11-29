@@ -1,23 +1,11 @@
 import React from "react";
 import "../App.css";
-// import ColorButton from "./ColorButton.jsx";
-// import HomeIcon from "@mui/icons-material/Home";
+import ColorButton from "./ColorButton.jsx";
 
 const Home = () => {
   return (
     <div id="Home">
-      {/* <div
-        className="HomeIconPosition"
-        onClick={() => {
-          topFunction();
-        }}
-      >
-        <div className="HomeButton">
-          <HomeIcon fontSize="large" className="HomeIcon" />
-        </div>
-      </div> */}
       <div className="HomePage">
-        {/* <div className="Intro"> */}
         <div className="IntroLine">
           <h1 className="Typography">HI! I'M</h1>
           <div className="BlueBox">
@@ -28,18 +16,18 @@ const Home = () => {
         </div>
         <h2 className="Typography">A FULL STACK WEB DEVELOPER</h2>
       </div>
-      {/* <nav className="links-home">
-          <a className="Link" href="/contact">
-            <ColorButton variant="outlined">Contact</ColorButton>
-          </a>
-          <a className="Link" href="/info">
-            <ColorButton variant="outlined">Info</ColorButton>
-          </a>
-          <a className="Link" href="/resume">
-            <ColorButton variant="outlined">Resume</ColorButton>
-          </a>
-        </nav> */}
-      {/* </div> */}
+
+      <div id="Nav">
+        <a className="Link" href="/contact">
+          <ColorButton variant="outlined">Contact</ColorButton>
+        </a>
+        <a className="Link" href="/info">
+          <ColorButton variant="outlined">Info</ColorButton>
+        </a>
+        <a className="Link" href="/resume">
+          <ColorButton variant="outlined">Resume</ColorButton>
+        </a>
+      </div>
     </div>
   );
 };

@@ -1,17 +1,24 @@
 import "./App.css";
 import Home from "./Components/Home.jsx";
+import InfoSection from "./Components/InfoSection.jsx";
+import ContactMe from "./Components/ContactMe.jsx";
 import HomeIcon from "@mui/icons-material/Home";
-import ColorButton from "./Components/ColorButton.jsx";
 
 function App() {
   let topFunction = () => {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    if (
+      document.body.scrollTop !== 0 ||
+      document.documentElement.scrollTop !== 0
+    ) {
+      window.scrollBy(0, -80);
+      requestAnimationFrame(topFunction);
+    }
   };
 
   return (
     <div className="Body">
       <div
+        id="HomeButton"
         className="HomeIconPosition"
         onClick={() => {
           topFunction();
@@ -22,19 +29,8 @@ function App() {
         </div>
       </div>
       <Home />
-      <div id="Nav">
-        {/* <nav className="links-home"> */}
-        <a className="Link" href="/contact">
-          <ColorButton variant="outlined">Contact</ColorButton>
-        </a>
-        <a className="Link" href="/info">
-          <ColorButton variant="outlined">Info</ColorButton>
-        </a>
-        <a className="Link" href="/resume">
-          <ColorButton variant="outlined">Resume</ColorButton>
-        </a>
-        {/* </nav> */}
-      </div>
+      <InfoSection />
+      <ContactMe />
     </div>
   );
 }
