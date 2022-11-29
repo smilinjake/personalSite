@@ -26,7 +26,6 @@ a {
 .Centered {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
 }
 
@@ -37,7 +36,6 @@ a {
 }
 
 .HomeButton {
-  /* background-color: #fafafa; */
   height: 45px;
   width: 45px;
   border: transparent 2px solid;
@@ -45,7 +43,6 @@ a {
 }
 
 .HomeButton:hover {
-  /* border: 2px; */
   border: aqua 2px solid;
   cursor: pointer;
 }
@@ -122,7 +119,6 @@ p {
 }
 
 strong {
-  /* color: gold; */
   font-weight: bold;
   color: aqua;
 }
@@ -131,9 +127,6 @@ strong {
 }
 
 .Typography {
-  /* color: whitesmoke; */
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 100;
 }
@@ -142,9 +135,7 @@ strong {
   color: black;
   padding-left: 10px;
   padding-right: 10px;
-  /* font-weight: 300; */
-  /* font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif; */
+
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -153,7 +144,6 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  /* position: fixed; */
 }
 
 /* --------------------------------------- HOME PAGE -------------------------------------------- */
@@ -200,29 +190,10 @@ strong {
   z-index: 99;
 }
 
-/* .Intro {
-  padding-left: 9%;
-} */
-
 .IntroLine {
   display: flex;
   flex-direction: row;
 }
-/*
-.links-home {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  margin-bottom: 10%;
-}
-
-.MyImage {
-  border-radius: 50%;
-  height: 150px;
-  width: 150px;
-  background-size: cover;
-  box-shadow: inset 0 0 70px rgba(0, 0, 0, 1);
-} */
 
 /* ---------------------------------------- INFO PAGE ------------------------------------------- */
 #AboutMe {
@@ -241,22 +212,14 @@ strong {
 }
 
 .Info-section {
-  /* background-color: aqua; */
   height: 100vh;
   display: flex;
-  /* justify-content: center; */
   align-items: center;
-  /* width: 80%; */
-}
-
-.InfoColumn-1 {
-  /* width: 80%; */
 }
 
 .Info {
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   align-content: flex-start;
   justify-content: center;
   height: 80%;
@@ -267,14 +230,9 @@ strong {
 .InfoRow-1 {
   display: flex;
   flex-direction: row;
-  /* width: 80%; */
   padding-top: 3.2%;
   padding-bottom: 4%;
 }
-
-/* .StrongInfo {
-  padding-left: 5px;
-} */
 
 .TypographyH1Info {
   padding-left: 5px;
@@ -297,12 +255,9 @@ strong {
 }
 
 .Contact-Body {
-  /* background-color:dodgerblue; */
-  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* flex-direction: column; */
 }
 
 .Contact-Block {
@@ -324,7 +279,6 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /* padding-top: 4%; */
   padding-bottom: 15vh;
   height: 60%;
 }
@@ -333,9 +287,6 @@ strong {
   display: flex;
   align-items: center;
 }
-/* .ContactBubbleLink {
-  width: 100px;
-} */
 
 .IconBubble {
   display: flex;
@@ -347,7 +298,6 @@ strong {
   border-radius: 10%;
   height: 80px;
   width: 80px;
-  /* margin-left: 80px; */
   margin-right: 80px;
 }
 
@@ -359,10 +309,8 @@ strong {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  /* background-color: rgb(48, 88, 75); */
   justify-content: flex-start;
   width: 60%;
-  /* padding-left: 5%; */
 }
 
 .LinkedIn {
@@ -376,11 +324,9 @@ strong {
   justify-content: center;
   align-content: center;
   align-items: center;
-  /* background-color: aqua; */
   border-radius: 10%;
   height: 80px;
   width: 80px;
-  /* margin-left: 80px; */
   margin-right: 80px;
 }
 
@@ -388,17 +334,13 @@ strong {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  /* justify-content: flex-end; */
-  /* background-color: rgb(14, 14, 113); */
+
   width: 40%;
 }
 
 .Right-Row {
   display: flex;
   flex-direction: column;
-  /* width: 50%; */
-  /* padding-right: 30%; */
-  /* justify-content: flex-end; */
 }
 
 .BlueBoxContact {
