@@ -1,9 +1,7 @@
 import React from "react";
 import "../App.css";
 import ColorButton from "./ColorButton.jsx";
-import Grid from "@mui/material/Grid";
 import PhoneIcon from "@mui/icons-material/Phone";
-// import EmailIcon from "@mui/icons-material/Email";
 import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -86,7 +84,7 @@ const ContactMe = () => {
               <div className="LittleRow">
                 <div className="BlueBoxContact">
                   <h1 className="TypographyH1">
-                    <strong>GET IN</strong>
+                    <strong className="StrongTitle">GET IN</strong>
                   </h1>
                 </div>
               </div>

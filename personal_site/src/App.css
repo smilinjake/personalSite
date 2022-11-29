@@ -57,6 +57,7 @@ a {
 
 h1 {
   color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 60px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -87,6 +88,14 @@ h4 {
   color: #fafafa;
 }
 
+p {
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fafafa;
+  font-weight: lighter;
+  text-align: justify;
+}
+
 .links {
   width: 80%;
   display: flex;
@@ -112,14 +121,13 @@ h4 {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-p {
-  width: 60%;
-  margin-bottom: 40px;
-  line-height: 1.5;
-}
 strong {
   /* color: gold; */
   font-weight: bold;
+  color: aqua;
+}
+.StrongTitle {
+  color: black;
 }
 
 .Typography {
@@ -140,49 +148,63 @@ strong {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#Nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: fixed;
+}
+
 /* --------------------------------------- HOME PAGE -------------------------------------------- */
+#Home {
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
 .BlueBox {
   background-color: aqua;
   height: 90px;
 }
 
 .HomePage {
-  /* background-color: aquamarine; */
-  display: flex;
-  height: 100vh;
-  width: 100%;
   display: flex;
   flex-direction: column;
   /* align-items: center; */
-  /* background-image: url(../public/images/galaxy1.jpeg); */
-  justify-content: space-around;
+  align-content: flex-start;
+  justify-content: center;
+  height: 100%;
+  /* width: 100%; */
+  /* justify-content: space-around; */
 }
 
-.HomeBorder {
+/* .HomeBorder {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 80px;
   border: 2px solid #fafafa;
   border-radius: 10px;
+} */
 
-  /* border-width: 2px;
-  border-color: #fafafa; */
-  /* width: 50% !important; */
+.HomeIconPosition {
+  position: fixed;
 }
 
-.Intro {
+/* .Intro {
   padding-left: 9%;
-  /* background-color: aquamarine; */
-}
+} */
 
 .IntroLine {
   display: flex;
   flex-direction: row;
 }
-
+/*
 .links-home {
-  /* width: 80%; */
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -191,25 +213,54 @@ strong {
 
 .MyImage {
   border-radius: 50%;
-  /* background: radial-gradient(circle, transparent 35%, black 200%); */
   height: 150px;
   width: 150px;
-  /* background-image: url(../public/images/websiteImage.jpeg); */
   background-size: cover;
   box-shadow: inset 0 0 70px rgba(0, 0, 0, 1);
-}
+} */
 
 /* ---------------------------------------- INFO PAGE ------------------------------------------- */
+.BlueBoxInfo {
+  height: 90px;
+  background-color: aqua;
+}
+
 .Info-section {
   /* background-color: aqua; */
   height: 100vh;
   display: flex;
+  /* justify-content: center; */
   align-items: center;
+  /* width: 80%; */
+}
+
+.InfoColumn-1 {
+  /* width: 80%; */
 }
 
 .Info {
   display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+
   align-items: center;
+}
+
+.InfoRow-1 {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  padding-top: 3.2%;
+  padding-bottom: 4%;
+}
+
+/* .StrongInfo {
+  padding-left: 5px;
+} */
+
+.TypographyH1Info {
+  padding-left: 5px;
+  color: aqua;
 }
 
 /* ---------------------------------------- CONTACT PAGE ---------------------------------------- */
