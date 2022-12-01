@@ -1,6 +1,6 @@
 import React from "react";
 import "../App.css";
-import ColorButton from "./ColorButton.jsx";
+import ColorButton from "./ColorButton.js";
 import Grid from "@mui/material/Grid";
 
 const Resume = () => {
