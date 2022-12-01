@@ -144,6 +144,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  padding-bottom: 10vh;
 }
 
 /* --------------------------------------- HOME PAGE -------------------------------------------- */
@@ -254,7 +255,7 @@ strong {
   width: 58px;
 }
 
-.Contact-Body {
+#ContactSection {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -263,7 +264,14 @@ strong {
 .Contact-Block {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 120px;
+  /* width: 480px; */
+}
+
+.ContactBubbleLink {
+  /* width: 80px;
+  height: 80px; */
 }
 
 .ContactColumn {

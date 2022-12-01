@@ -3,6 +3,9 @@ import "../App.css";
 import ColorButton from "./ColorButton.jsx";
 
 const Home = () => {
+  let scrollToSection = (section) => {
+    document.getElementById(section).scrollIntoView({ behavior: "smooth" });
+  };
   return (
     <div id="Home">
       <div className="HomePage">
@@ -18,15 +21,36 @@ const Home = () => {
       </div>
 
       <div id="Nav">
-        <a className="Link" href="/contact">
-          <ColorButton variant="outlined">Contact</ColorButton>
-        </a>
-        <a className="Link" href="/info">
-          <ColorButton variant="outlined">Info</ColorButton>
-        </a>
-        <a className="Link" href="/resume">
-          <ColorButton variant="outlined">Resume</ColorButton>
-        </a>
+        {/* <a className="Link" href="/contact"> */}
+        <ColorButton
+          variant="outlined"
+          onClick={() => {
+            scrollToSection("AboutMe");
+          }}
+        >
+          Info
+        </ColorButton>
+        {/* </a> */}
+        {/* <a className="Link" href="/info"> */}
+        <ColorButton
+          variant="outlined"
+          onClick={() => {
+            scrollToSection("ContactSection");
+          }}
+        >
+          Skills
+        </ColorButton>
+        {/* </a> */}
+        {/* <a className="Link" href="/resume"> */}
+        <ColorButton
+          variant="outlined"
+          onClick={() => {
+            scrollToSection("ContactSection");
+          }}
+        >
+          Contact
+        </ColorButton>
+        {/* </a> */}
       </div>
     </div>
   );

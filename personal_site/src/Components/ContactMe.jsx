@@ -8,7 +8,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 const ContactMe = () => {
   return (
     <>
-      <div className="Contact-Body">
+      <div id="ContactSection">
         <div className="Contact-Row">
           <div className="Left-Side">
             <span className="Contact-Block">
